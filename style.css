@@ -200,8 +200,8 @@
 .latest-projects-right,
 .experience-right {
   width: 100%;
-  padding-left: 64.64px;
   display: flex;
+  padding-left: 64.64px;
   flex-direction: column;
 }
 .latest-projects-right .heading {
@@ -219,7 +219,6 @@
 .design-systems {
   display: flex;
   width: 50%;
-  height: 168.93px;
   background-color: #f7f9fc;
   padding: 24.24px;
   gap: 16.16px;
@@ -263,7 +262,6 @@
   display: flex;
   flex-direction: column;
 
-  height: 435.99px;
   width: 100%;
   padding-left: 64.64px;
   display: flex;
@@ -387,13 +385,10 @@
 .education-right {
   display: flex;
   flex-direction: column;
-  height: 236px;
 }
 
 .educational-sites {
-  margin-top: 32.32px;
   position: relative;
-  height: 236px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -628,7 +623,7 @@
   }
   .latest-projects {
     overflow: hidden;
-    height: 600px;
+    padding-left: 0px;
   }
   .experience {
     overflow: hidden;
@@ -657,4 +652,15 @@
     width: 100%;
     flex-wrap: wrap;
   }
+  .latest-projects-right {
+    padding-left: 0;
+  }
+  .latest-projects {
+    padding-left: 0;
+  }
+  .education-right {
+  }
+  /* .design-systems {
+    height: 0;
+  } */
 }
