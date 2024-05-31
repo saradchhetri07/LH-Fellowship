@@ -602,7 +602,7 @@
   flex-direction: row;
   gap: 8.08px;
 }
-@media (max-width: 576px) {
+@media (max-width: 771Goopx) {
   .whole-page {
     display: flex;
     flex-direction: column;
@@ -614,6 +614,47 @@
     flex-wrap: wrap;
   }
   .projects-card {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .design-systems {
+    width: 100%;
+  }
+  .company {
+    flex-wrap: wrap;
+  }
+  .company-info {
+    width: 80%;
+  }
+  .latest-projects {
+    overflow: hidden;
+    height: 600px;
+  }
+  .experience {
+    overflow: hidden;
+    height: 400px;
+  }
+  .educational-sites {
+    flex-direction: column;
+    flex: wrap;
+  }
+  .memorisely site-container {
+    width: 100%;
+  }
+  .experience-right education-right skills {
+    flex-direction: column;
+    width: 100%;
+  }
+  .design {
+    height: auto;
+    width: 100%;
+  }
+  .design-tools {
+    height: 600px;
+    flex-wrap: wrap;
+  }
+  .upper-design-tools {
+    width: 100%;
     flex-wrap: wrap;
   }
 }
