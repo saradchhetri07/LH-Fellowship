@@ -386,7 +386,11 @@
   display: flex;
   flex-direction: column;
 }
-
+.right-design {
+  display: flex;
+  width: 100%;
+  gap: 8.8px;
+}
 .educational-sites {
   position: relative;
   width: 100%;
@@ -460,15 +464,7 @@
   justify-items: flex-start;
   gap: 8.08px;
 }
-.development {
-  display: flex;
-  flex-direction: row;
-  height: 83.65px;
-  width: 113.13px;
-  justify-items: flex-start;
-  gap: 8.08px;
-  background-color: #5531a7;
-}
+
 .design-image {
   display: flex;
   flex-direction: column;
@@ -483,13 +479,23 @@
   width: 113.13px;
   height: 100%;
 }
+.development {
+  display: flex;
+  width: 100%;
+}
+.development-tools {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 8.08px;
+}
 .web-and-mobile-design {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  width: 300.17px;
+
   background-color: #f7f9fc;
 }
 .hori-divider {
@@ -523,12 +529,10 @@
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
-  width: 126px;
   justify-content: center;
   background-color: #f7f9fc;
 }
 .react-js {
-  margin-left: 8.08px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -597,6 +601,7 @@
   flex-direction: row;
   gap: 8.08px;
 }
+
 @media (max-width: 771px) {
   .whole-page {
     display: flex;
@@ -605,26 +610,19 @@
   .left {
     width: 100%;
   }
-  .about {
-    flex-wrap: wrap;
-  }
+
   .projects-card {
     width: 100%;
     flex-wrap: wrap;
   }
-  .design-systems {
-    width: 100%;
-  }
+
   .company {
     flex-wrap: wrap;
   }
   .company-info {
     width: 80%;
   }
-  .latest-projects {
-    overflow: hidden;
-    padding-left: 0px;
-  }
+
   .experience {
     overflow: hidden;
     height: 400px;
@@ -636,16 +634,12 @@
   .memorisely site-container {
     width: 100%;
   }
-  .experience-right education-right skills {
-    flex-direction: column;
-    width: 100%;
-  }
+
   .design {
     height: auto;
     width: 100%;
   }
   .design-tools {
-    height: 600px;
     flex-wrap: wrap;
   }
   .upper-design-tools {
@@ -658,9 +652,34 @@
   .latest-projects {
     padding-left: 0;
   }
-  .education-right {
+
+  .right-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  /* .design-systems {
-    height: 0;
-  } */
+  .user-experience {
+    width: 100%;
+  }
+  .process {
+    width: 100%;
+  }
+  .design-system {
+    width: 100%;
+  }
+  .react-js {
+    width: 100%;
+  }
+  .design {
+    justify-content: space-between;
+  }
+  .development-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 8.08px;
+  }
+  .development {
+    justify-content: space-between;
+  }
 }
