@@ -602,7 +602,7 @@
   flex-direction: row;
   gap: 8.08px;
 }
-@media (max-width: 771Goopx) {
+@media (max-width: 771px) {
   .whole-page {
     display: flex;
     flex-direction: column;
