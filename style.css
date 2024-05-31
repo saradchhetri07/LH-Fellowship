@@ -602,3 +602,18 @@
   flex-direction: row;
   gap: 8.08px;
 }
+@media (max-width: 576px) {
+  .whole-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .about {
+    flex-wrap: wrap;
+  }
+  .projects-card {
+    flex-wrap: wrap;
+  }
+}
